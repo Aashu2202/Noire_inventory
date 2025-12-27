@@ -1,0 +1,59 @@
+/* Custom Theme Variables */
+:root {
+  --primary-green: #13C977;
+  --primary-purple: #7B4DFF;
+  --bg-wheat: #f5deb3; /* wheat */
+  --white: #ffffff;
+  --text-dark: #2d3436;
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  background-color: var(--bg-wheat);
+  color: var(--text-dark);
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Smooth Transitions for all interactive elements */
+a, button, .card, .form-control {
+  transition: var(--transition);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-wheat);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary-purple);
+  border-radius: 10px;
+}
+
+/* Global Button Styles */
+.btn-custom-green {
+  background-color: var(--primary-green);
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+.btn-custom-green:hover {
+  background-color: #10b66b;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(19, 201, 119, 0.3);
+}
+
+.btn-custom-purple {
+  background-color: var(--primary-purple);
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+.btn-custom-purple:hover {
+  background-color: #6636e6;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(123, 77, 255, 0.3);
+}

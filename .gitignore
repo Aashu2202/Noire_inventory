@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Production
+build/
+dist/
+frontend/dist/
+backend/dist/
+.svelte-kit
+.next
+out/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+frontend/.env
+backend/.env
+
+# Debugging and Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+logs/
+
+# Editor/OS Specific
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Misc
+.cache/
+.eslintcache
+.stylelintcache
+.npm
+.yarn
